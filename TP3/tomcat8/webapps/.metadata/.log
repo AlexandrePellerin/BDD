@@ -1,0 +1,115 @@
+!SESSION 2016-10-22 08:31:21.312 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.028
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.034
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.037
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.040
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.043
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:31.046
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+!SESSION 2016-10-22 08:31:39.848 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.152
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.157
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.159
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.162
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.164
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:31:48.167
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 19 2016-10-22 08:32:01.313
+!MESSAGE Updating the index from remote failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+org.apache.lucene.store.AlreadyClosedException: this Directory is closed
+	at org.apache.lucene.store.Directory.ensureOpen(Directory.java:288)
+	at org.apache.lucene.store.FSDirectory.listAll(FSDirectory.java:240)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:641)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:593)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:359)
+	at org.apache.lucene.index.IndexReader.indexExists(IndexReader.java:1076)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1119)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseService.replaceContent(ProblemsDatabaseService.java:173)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-10-22 08:32:14.991 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.546
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.551
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.553
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.555
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.557
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:32:27.559
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+!SESSION 2016-11-09 08:19:31.844 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/webapps/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.337
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.344
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.346
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.347
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.349
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:19:36.350
+!MESSAGE System property https.proxyPort is not set but should be 3128.

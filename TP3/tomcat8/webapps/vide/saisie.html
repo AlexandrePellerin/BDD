@@ -1,0 +1,51 @@
+<html>
+  <head>
+    	<meta charset="UTF-8" />
+	<title>Saisie</title>
+	<link rel="stylesheet" href="/vide/style.css" />
+	<script type="text/javascript">
+	  function valider()
+	  {
+	  if(document.formSaisie.nom.value != "") return true;
+	  else{
+	  alert("Saissisez le nom");
+	  return false;
+	  }
+	  }
+	  </script>
+</head>
+
+  <body>
+    <nav>
+    <ol>
+      <li><a href="/vide/saisie.html">Saisie</a></li>
+      <li><a href="/vide/servlet/Lister">Lister</a></li>
+      <li><a href="/vide/servlet/Synthese">Synthese</a></li>
+    </ol>
+  </nav>
+    <center>
+      <h1>Saisie</h1>
+    <form action="/vide/servlet/Inserer" method="post" onsubmit="return valider()" name="formSaisie">
+      <p>
+	<label>Nom</label> : <input type="text" name="nom" id="nom">
+      </p>
+      <p>
+	<label>Taille</label> : <input type="text" name="taille">
+      </p>
+      <p>
+	<label>Chaises</label> : <input type="text" name="chaises">
+      </p>
+      <p>
+	<label>Portes</label> : <input type="text" name="portes">
+      </p>
+      <p>
+	<label>Fenetres</label> : <input type="text" name="fenetres">
+      </p>
+      <p>
+	<input type="submit">
+	<input type="reset">
+      </p>
+    </form>
+    </center>
+  </body>
+</html>

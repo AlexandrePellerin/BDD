@@ -1,0 +1,50 @@
+!SESSION 2016-10-22 08:30:11.691 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.120
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.126
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.128
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.130
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.133
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-22 08:30:19.136
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+!SESSION 2016-11-09 08:21:05.015 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/infoetu/pelleria/Sem3/BDD/TP3/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.639
+!MESSAGE System property http.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.643
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.645
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.646
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.649
+!MESSAGE System property https.proxyHost is not set but should be proxy.univ-lille1.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 08:21:09.650
+!MESSAGE System property https.proxyPort is not set but should be 3128.

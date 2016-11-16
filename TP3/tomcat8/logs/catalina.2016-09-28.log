@@ -1,0 +1,21 @@
+28-Sep-2016 08:34:48.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Python35-32\Scripts\;C:\Program Files (x86)\Python35-32\;C:\Program Files\Tcl\bin;C:\Program Files\Python27\;C:\Program Files\Python27\Scripts;C:\Program Files\Perl64\site\bin;C:\Program Files\Perl64\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WinSCP\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files (x86)\Symyx\Symyx Draw 3.3\lib;C:\Program Files (x86)\Common Files\MDL Shared\ISIS;.
+28-Sep-2016 08:34:49.432 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Sep-2016 08:34:49.604 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2016 08:34:49.604 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 08:34:49.620 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2016 08:34:49.620 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2931 ms
+28-Sep-2016 08:34:49.870 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+28-Sep-2016 08:34:49.870 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+28-Sep-2016 08:34:49.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\Sem3\BDD\TP3\tomcat8\webapps\vide de l'application web
+28-Sep-2016 08:34:52.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\Sem3\BDD\TP3\tomcat8\webapps\vide has finished in 2 625 ms
+28-Sep-2016 08:34:52.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\Sem3\BDD\TP3\tomcat8\webapps\manager de l'application web
+28-Sep-2016 08:34:53.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\Sem3\BDD\TP3\tomcat8\webapps\manager has finished in 734 ms
+28-Sep-2016 08:34:53.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\Sem3\BDD\TP3\tomcat8\webapps\host-manager de l'application web
+28-Sep-2016 08:34:53.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\Sem3\BDD\TP3\tomcat8\webapps\host-manager has finished in 282 ms
+28-Sep-2016 08:34:53.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\Sem3\BDD\TP3\tomcat8\webapps\ROOT de l'application web
+28-Sep-2016 08:34:53.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\Sem3\BDD\TP3\tomcat8\webapps\ROOT has finished in 250 ms
+28-Sep-2016 08:34:53.854 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Sep-2016 08:34:53.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 08:34:53.885 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4274 ms
+28-Sep-2016 08:43:07.743 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire E:\Sem3\BDD\TP3\tomcat8\webapps\test de l'application web
+28-Sep-2016 08:43:08.134 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\Sem3\BDD\TP3\tomcat8\webapps\test has finished in 391 ms

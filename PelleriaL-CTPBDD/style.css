@@ -1,0 +1,97 @@
+H1
+{
+    font-family:Tahoma,Arial,sans-serif;
+    color:white;background-color:#525D76;
+    font-size:22px;
+}
+
+H2
+{
+    font-family:Tahoma,Arial,sans-serif;
+    color:white;
+    background-color:#525D76;
+    font-size:16px;
+}
+H3
+{
+    font-family:Tahoma,Arial,sans-serif;
+    color:white;
+    background-color:#525D76;
+    font-size:14px;
+}
+BODY
+{font-family:Tahoma,Arial,sans-serif;
+ color:black;
+ background-color:white;
+}
+B
+{font-family:Tahoma,Arial,sans-serif;
+   color:white;
+   background-color:#525D76;
+}
+
+P
+{font-family:Tahoma,Arial,sans-serif;
+   background:white;
+   color:black;
+   font-size:12px;
+}
+A
+{color : black;
+}
+A.name
+{
+    color : black;
+}
+.line
+{
+    height: 1px;
+    background-color: #525D76;
+    border: none;
+}
+
+
+table{
+	border: thin solid black;
+	border-collapse: collapse;
+}
+td{
+	border: thin solid black;
+}
+th{
+	border: thin solid black;
+	text-align: left;
+	color:white;
+	background-color: grey;
+}
+nav{
+	top:0px;
+	text-align:center;
+	background : gray;
+	padding: 4px;
+}
+nav li {
+    margin-top:2em;
+    display: inline;
+ }
+
+nav ol{ 
+list-style:none;	
+
+}
+nav li a{
+	color: white;
+	font-size: 2em;
+	text-decoration:  -moz-none;
+	margin: 10px;
+}
+nav li a:hover, li a:focus, li a:active
+{
+  background: black ;
+  text-decoration: underline ;
+}
+form
+{
+    display: inline;
+    padding: 5px;
+}

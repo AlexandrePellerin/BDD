@@ -1,0 +1,17 @@
+              Liste des relations
+  Schéma  |     Nom     | Type  | Propriétaire 
+----------+-------------+-------+--------------
+ pelleria | Clients     | table | pelleria
+ pelleria | Fourn       | table | pelleria
+ pelleria | Machines    | table | pelleria
+ pelleria | PiecMac     | table | pelleria
+ pelleria | Pieces      | table | pelleria
+ pelleria | abonne      | table | pelleria
+ pelleria | clients     | table | pelleria
+ pelleria | personne    | table | pelleria
+ pelleria | produits    | table | pelleria
+ pelleria | reservation | table | pelleria
+ pelleria | resultats   | table | pelleria
+ pelleria | terrain     | table | pelleria
+(12 lignes)
+
