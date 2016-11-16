@@ -86,7 +86,8 @@ public class Authent extends HttpServlet {
 		if(valide){
 			req.getSession().setAttribute("connecte", true);
 			req.getSession().setAttribute("login", login);
-			res.sendRedirect("/vide/menu.html");
+			req.getSession().setMaxInactiveInterval(10);
+			res.sendRedirect("/vide/servlet/Menu");
 		}else{
 			res.sendRedirect("/vide/login.html");
 		}
