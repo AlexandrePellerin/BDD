@@ -172,3 +172,5 @@
 172.18.48.151 - - [16/Nov/2016:10:01:53 +0100] "POST /vide/servlet/Authent HTTP/1.1" 302 -
 172.18.48.151 - - [16/Nov/2016:10:01:53 +0100] "GET /vide/servlet/Menu HTTP/1.1" 200 228
 172.18.48.151 - - [16/Nov/2016:10:01:53 +0100] "GET /vide/style.css HTTP/1.1" 200 1412
+0:0:0:0:0:0:0:1 - - [16/Nov/2016:10:15:33 +0100] "GET /vide/servlet/Modif HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Nov/2016:10:15:33 +0100] "GET /vide/login.html HTTP/1.1" 304 -
