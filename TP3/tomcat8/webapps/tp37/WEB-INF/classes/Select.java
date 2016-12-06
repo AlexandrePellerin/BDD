@@ -60,7 +60,7 @@ public class Select extends HttpServlet {
 	    Class.forName("org.postgresql.Driver");
 	    
 	    // connexion a la base
-	    con = DriverManager.getConnection("jdbc:postgresql://localhost/template1","mathieu","moi");
+	    con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
 	    
 	    // execution de la requete
 	    Statement stmt = con.createStatement();
@@ -86,7 +86,6 @@ public class Select extends HttpServlet {
 	    while(rs.next())
 		{
 		    out.println("<tr>");
-
 		    out.print("<td>"+rs.getString("login")+"</td>");
 		    out.print("<td>"+rs.getString("mdp")+"</td>");
 		    out.print("<td>"+rs.getString("nom")+"</td>");

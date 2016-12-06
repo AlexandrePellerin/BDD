@@ -1,0 +1,2615 @@
+23-Nov-2016 08:35:00.116 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp37] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [85] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [102] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [103] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [85] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [102] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [103] in the generated java file: [/home/infoetu/pelleria/Sem3/BDD/TP3/tomcat8/work/Catalina/localhost/tp37/org/apache/jsp/mapage_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 08:49:12.450 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+Duplicate local variable out
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+15: avec quelques accents à é è ù
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+Duplicate local variable out
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     PrintWriter out = res.getWriter();
+12:     res.setContentType("text/html");
+13: 	%>
+14:      
+15: avec quelques accents à é è ù
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 08:49:57.511 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     res.setContentType("text/html");
+12: 	%>
+13:      
+14: avec quelques accents à é è ù
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 11 dans le fichier jsp: /mapage_jsp.jsp
+res cannot be resolved
+8: <body>
+9:   <h1>Hello World</h1>
+10:   <%
+11:     res.setContentType("text/html");
+12: 	%>
+13:      
+14: avec quelques accents à é è ù
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:02:50.259 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+req cannot be resolved
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+req cannot be resolved
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+20: avec quelques accents � � � �
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+req cannot be resolved
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+req cannot be resolved
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users where login='" + req.getParameter("login") + "' and mdp='"+req.getParameter("mdp") + "'";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+20: avec quelques accents � � � �
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:03:12.288 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+20: avec quelques accents � � � �
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19:      
+20: avec quelques accents � � � �
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:09:45.641 SEVERE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19: 
+20: 	<table>
+
+
+Une erreur s'est produite à la ligne: 31 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+28: 	<tr>
+29: 	<% for(int i = 1 ; i <= 6 ; i++){
+30: 	%>
+31: 	<td> <% rs.getString(i) %> </td>
+32: 	<% } %>
+33: 	</tr>
+34: 	<% } %>
+
+
+Une erreur s'est produite à la ligne: 37 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+34: 	<% } %>
+35: 
+36: avec quelques accents � � � �
+37: <% con.close(); %>
+38: </body>
+39: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved to a variable
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+12:     Class.forName("org.postgresql.Driver");
+13:     con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19: 
+20: 	<table>
+
+
+Une erreur s'est produite à la ligne: 31 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+28: 	<tr>
+29: 	<% for(int i = 1 ; i <= 6 ; i++){
+30: 	%>
+31: 	<td> <% rs.getString(i) %> </td>
+32: 	<% } %>
+33: 	</tr>
+34: 	<% } %>
+
+
+Une erreur s'est produite à la ligne: 37 dans le fichier jsp: /mapage_jsp.jsp
+con cannot be resolved
+34: 	<% } %>
+35: 
+36: avec quelques accents � � � �
+37: <% con.close(); %>
+38: </body>
+39: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:10:07.752 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19: 
+20: 	<table>
+
+
+Une erreur s'est produite à la ligne: 31 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+28: 	<tr>
+29: 	<% for(int i = 1 ; i <= 6 ; i++){
+30: 	%>
+31: 	<td> <% rs.getString(i) %> </td>
+32: 	<% } %>
+33: 	</tr>
+34: 	<% } %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+10:   <%
+11:     response.setContentType("text/html");
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 15 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+12:     Class.forName("org.postgresql.Driver");
+13:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+
+
+Une erreur s'est produite à la ligne: 17 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+14: 
+15:     Statement stmt = con.createStatement();
+16: 	    String query = "select * from users";
+17: 	    ResultSet rs = stmt.executeQuery(query);
+18: 	%>
+19: 
+20: 	<table>
+
+
+Une erreur s'est produite à la ligne: 31 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+28: 	<tr>
+29: 	<% for(int i = 1 ; i <= 6 ; i++){
+30: 	%>
+31: 	<td> <% rs.getString(i) %> </td>
+32: 	<% } %>
+33: 	</tr>
+34: 	<% } %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:13:46.899 SEVERE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+18: 
+19: 	<table>
+
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+18: 
+19: 	<table>
+
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:14:40.220 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+18: 
+19: 	<table>
+
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+Connection cannot be resolved to a type
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /mapage_jsp.jsp
+DriverManager cannot be resolved
+9:   <h1>Hello World</h1>
+10:   <%
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /mapage_jsp.jsp
+Statement cannot be resolved to a type
+11:     Class.forName("org.postgresql.Driver");
+12:     Connection con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+
+
+Une erreur s'est produite à la ligne: 16 dans le fichier jsp: /mapage_jsp.jsp
+ResultSet cannot be resolved to a type
+13: 
+14:     Statement stmt = con.createStatement();
+15: 	    String query = "select * from users";
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	%>
+18: 
+19: 	<table>
+
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:15:07.597 SEVERE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 30 dans le fichier jsp: /mapage_jsp.jsp
+Syntax error, insert ";" to complete Statement
+27: 	<tr>
+28: 	<% for(int i = 1 ; i <= 6 ; i++){
+29: 	%>
+30: 	<td> <% rs.getString(i) %> </td>
+31: 	<% } %>
+32: 	</tr>
+33: 	<% } %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:33:25.669 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 19 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	    Personne pers = (Personne) session.getAttribute("personne");
+18: 	    if(pers==null){
+19: 		p = new Personne();
+20: 		session.setAttribute("personne",p);
+21: 	    }
+22: 	    
+
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+17: 	    Personne pers = (Personne) session.getAttribute("personne");
+18: 	    if(pers==null){
+19: 		p = new Personne();
+20: 		session.setAttribute("personne",p);
+21: 	    }
+22: 	    
+23: 	%>
+
+
+Une erreur s'est produite à la ligne: 42 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+39: 	<% } %>
+40: 	</table><br>
+41: avec quelques accents � � � �<br>
+42: <%=p%>
+43: <% con.close(); %>
+44: </body>
+45: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 19 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+16: 	    ResultSet rs = stmt.executeQuery(query);
+17: 	    Personne pers = (Personne) session.getAttribute("personne");
+18: 	    if(pers==null){
+19: 		p = new Personne();
+20: 		session.setAttribute("personne",p);
+21: 	    }
+22: 	    
+
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+17: 	    Personne pers = (Personne) session.getAttribute("personne");
+18: 	    if(pers==null){
+19: 		p = new Personne();
+20: 		session.setAttribute("personne",p);
+21: 	    }
+22: 	    
+23: 	%>
+
+
+Une erreur s'est produite à la ligne: 42 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+39: 	<% } %>
+40: 	</table><br>
+41: avec quelques accents � � � �<br>
+42: <%=p%>
+43: <% con.close(); %>
+44: </body>
+45: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 09:33:43.672 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 42 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+39: 	<% } %>
+40: 	</table><br>
+41: avec quelques accents � � � �<br>
+42: <%=p%>
+43: <% con.close(); %>
+44: </body>
+45: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 42 dans le fichier jsp: /mapage_jsp.jsp
+p cannot be resolved to a variable
+39: 	<% } %>
+40: 	</table><br>
+41: avec quelques accents � � � �<br>
+42: <%=p%>
+43: <% con.close(); %>
+44: </body>
+45: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 10:50:10.440 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [/PileFace.jsp (line: 27, column: 14) Tag &lt;%= non terminé] with root cause
+ org.apache.jasper.JasperException: /PileFace.jsp (line: 27, column: 14) Tag &lt;%= non terminé
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:276)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:92)
+	at org.apache.jasper.compiler.Parser.parseExpression(Parser.java:687)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1436)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:139)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:227)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:100)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:199)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 10:50:33.458 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [/PileFace.jsp (line: 27, column: 14) Tag &lt;%= non terminé] with root cause
+ org.apache.jasper.JasperException: /PileFace.jsp (line: 27, column: 14) Tag &lt;%= non terminé
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:276)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:92)
+	at org.apache.jasper.compiler.Parser.parseExpression(Parser.java:687)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1436)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:139)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:227)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:100)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:199)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:08:27.779 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 19 dans le fichier jsp: /PileFace.jsp
+Type mismatch: cannot convert from String to char
+16:    jeu = new JeuPileOuFace();
+17:    session.setAttribute("jeu",jeu);
+18:    }else{
+19:    char temp = request.getParameter("coup");
+20:    if(temp != null && (temp == 'P' || temp == 'F')){
+21:    jeu.play(temp);
+22:    }
+
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /PileFace.jsp
+The operator != is undefined for the argument type(s) char, null
+17:    session.setAttribute("jeu",jeu);
+18:    }else{
+19:    char temp = request.getParameter("coup");
+20:    if(temp != null && (temp == 'P' || temp == 'F')){
+21:    jeu.play(temp);
+22:    }
+23:    }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 19 dans le fichier jsp: /PileFace.jsp
+Type mismatch: cannot convert from String to char
+16:    jeu = new JeuPileOuFace();
+17:    session.setAttribute("jeu",jeu);
+18:    }else{
+19:    char temp = request.getParameter("coup");
+20:    if(temp != null && (temp == 'P' || temp == 'F')){
+21:    jeu.play(temp);
+22:    }
+
+
+Une erreur s'est produite à la ligne: 20 dans le fichier jsp: /PileFace.jsp
+The operator != is undefined for the argument type(s) char, null
+17:    session.setAttribute("jeu",jeu);
+18:    }else{
+19:    char temp = request.getParameter("coup");
+20:    if(temp != null && (temp == 'P' || temp == 'F')){
+21:    jeu.play(temp);
+22:    }
+23:    }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:09:30.096 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:09:55.482 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Une erreur s'est produite à la ligne: 21 dans le fichier jsp: /PileFace.jsp
+Incompatible operand types String and char
+18:    }else{
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp == 'P' || temp == 'F')){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:446)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:10:41.017 SEVERE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null && temp.length() == 1  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:28.936 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:33.129 SEVERE [http-nio-8080-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:33.800 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.056 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.255 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.423 SEVERE [http-nio-8080-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.609 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.777 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:34.951 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:35.141 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:37.218 SEVERE [http-nio-8080-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:37.776 SEVERE [http-nio-8080-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:38.008 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:17:38.182 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:24:26.755 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:24:27.464 SEVERE [http-nio-8080-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:24:54.969 SEVERE [http-nio-8080-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 22
+
+19:    String temp = request.getParameter("coup");
+20:    
+21:    if(temp != null  &&(temp.equals("P") || temp.equals("F"))){
+22:    jeu.play(temp.charAt(0));
+23:    }
+24:    }
+25:    %>
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at metier.JeuPileOuFace.play(JeuPileOuFace.java:51)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:90)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+23-Nov-2016 11:39:08.857 SEVERE [http-nio-8080-exec-44] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/vide] threw exception [An exception occurred processing JSP page /PileFace.jsp at line 16
+
+13: 
+14: <%
+15:    session.invalidate();
+16:    JeuPileOuFace jeu = (JeuPileOuFace) session.getAttribute("jeu");
+17:    if(jeu==null){
+18:    jeu = new JeuPileOuFace();
+19:    jeu.init();
+
+
+Stacktrace:] with root cause
+ java.lang.IllegalStateException: "getAttribute": Session déjà invalidée
+	at org.apache.catalina.session.StandardSession.getAttribute(StandardSession.java:1204)
+	at org.apache.catalina.session.StandardSessionFacade.getAttribute(StandardSessionFacade.java:108)
+	at org.apache.jsp.PileFace_jsp._jspService(PileFace_jsp.java:84)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:391)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:534)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1081)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1566)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1523)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

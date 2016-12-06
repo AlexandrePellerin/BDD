@@ -31,7 +31,7 @@ public class Authen extends HttpServlet {
 	    Class.forName("org.postgresql.Driver");
 	    
 	    // connexion a la base
-	    con = DriverManager.getConnection("jdbc:postgresql://localhost/template1?allowMultiQueries=true","mathieu","moi");
+	    con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1?allowMultiQueries=true","pelleria","moi");
 	    
 	    // execution de la requete
 	    Statement stmt = con.createStatement();

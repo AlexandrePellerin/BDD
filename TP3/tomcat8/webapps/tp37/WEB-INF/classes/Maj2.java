@@ -1,12 +1,18 @@
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
+
 import javax.servlet.annotation.*;
 import java.sql.*;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 @WebServlet("/servlet/Maj2")
 public class Maj2 extends HttpServlet {
-    public void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException 
+    
+	private static final long serialVersionUID = -6336027718603268014L;
+
+	public void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException 
     {
 	PrintWriter out = res.getWriter();
 	res.setContentType("text/html");
@@ -45,13 +51,13 @@ public class Maj2 extends HttpServlet {
 	    Class.forName("org.postgresql.Driver");
 	    
 	    // connexion a la base
-	    con = DriverManager.getConnection("jdbc:postgresql://localhost/template1","mathieu","moi");
+	    con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
 	    
-	    String login = req.getParameter("login");
-	    String mdp = req.getParameter("mdp");
-	    String nom = req.getParameter("nom");
-	    String prenom = req.getParameter("prenom");
-	    String adresse = req.getParameter("adresse");
+	    String login = StringEscapeUtils.escapeHtml4(req.getParameter("login"));
+	    String mdp = StringEscapeUtils.escapeHtml4(req.getParameter("mdp"));
+	    String nom = StringEscapeUtils.escapeHtml4(req.getParameter("nom"));
+	    String prenom = StringEscapeUtils.escapeHtml4(req.getParameter("prenom"));
+	    String adresse = StringEscapeUtils.escapeHtml4(req.getParameter("adresse"));
 	    
 	    Statement stmt = con.createStatement();
 	    
@@ -59,9 +65,9 @@ public class Maj2 extends HttpServlet {
 	    // Verification du login
 	    if (!login.equals(p.login)) // il a change son login
 		{
-		    String query = "select * from users where login='"+ login + "'";
-		    out.println("<pre>"+query+"</pre>");
-		    ResultSet rs = stmt.executeQuery(query);
+	    	PreparedStatement ps = con.prepareStatement("select * from users where login=?");
+	    	ps.setString(1, login);
+		    ResultSet rs = ps.executeQuery();
 		    
 		    if(rs.next()) 
 			{
@@ -71,16 +77,16 @@ public class Maj2 extends HttpServlet {
 			}
 		}
 	    
-	    String query2 = "update users set ";
-	    query2 += ("login='"+login+"',");
-	    query2 += ("mdp='"+mdp+"',");
-	    query2 += ("nom='"+nom+"',");
-	    query2 += ("prenom='"+prenom+"',");
-	    query2 += ("adresse='"+adresse+"'");
-	    query2 += " where login ='"+p.login+"'";
+	    PreparedStatement pres = con.prepareStatement("update users set login=?, mdp=?, nom=?,"
+	    		+ " prenom=?, adresse=? where login = ?");
+	    pres.setString(1, login);
+	    pres.setString(2, mdp);
+	    pres.setString(3, nom);
+	    pres.setString(4, prenom);
+	    pres.setString(5, adresse);
+	    pres.setString(6, p.login);
 	    
-	    out.println("<pre>"+query2+"</pre>");
-	    stmt.executeUpdate(query2);
+	    ResultSet resSet = pres.executeQuery();
 	    
 	    // modif de l'objet : ici on ne peut pas changer le role
 	    p.maj(login,mdp,nom,prenom,adresse);

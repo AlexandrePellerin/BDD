@@ -43,7 +43,7 @@ public class New2 extends HttpServlet
 		Class.forName("org.postgresql.Driver");
 		
 		// connexion a la base
-		con = DriverManager.getConnection("jdbc:postgresql://localhost/template1","mathieu","moi");
+		con = DriverManager.getConnection("jdbc:postgresql://psqlserv/n3p1","pelleria","moi");
 		
 		String login = req.getParameter("login");
 		String mdp = req.getParameter("mdp");

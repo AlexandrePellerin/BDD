@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<%@ page pageEncoding="UTF-8" %>
+
+<html>
+<head>
+<title> PileOuFace </title>
+</head>
+<body>
+<center>
+
+<h1> Pile ou Face </h1>
+
+<p>Le premier arriv&eacute; &agrave; 10 a gagn&eacute;!
+Deux faces identiques je gagne, deux faces diff&eacute;rentes vous gagnez!</p>
+
+<p>Nous allons d&eacute;buter une nouvelle partie</p>
+
+
+
+
+</center>
+</body>
+</html>
