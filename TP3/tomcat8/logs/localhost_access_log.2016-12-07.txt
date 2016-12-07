@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:07 +0100] "GET /vide/login.html HTTP/1.1" 200 374
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:07 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:16 +0100] "GET /vide/absences HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:16 +0100] "GET /vide/absences/ HTTP/1.1" 404 1033
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:25 +0100] "GET /vide/absences/index.html HTTP/1.1" 200 240
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:12:58:28 +0100] "GET /vide/absences/ajouterAbsence.html HTTP/1.1" 404 1071
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:09:50 +0100] "GET /vide/absences/ajouterAbsence.html HTTP/1.1" 200 691
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:09:50 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:10:27 +0100] "GET /vide/absences/ajouterAbsence.html HTTP/1.1" 200 699
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:10:27 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:11:15 +0100] "GET /vide/absences/ajouterAbsence.html HTTP/1.1" 200 772
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:11:15 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [07/Dec/2016:13:11:35 +0100] "POST /vide/servlet/absences/InsererAbsence HTTP/1.1" 404 1077

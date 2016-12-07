@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajouter un absence</title>
+  </head>
+
+  <body>
+    <form action="/vide/servlet/absences/InsererAbsence" method="post" onsubmit="return valider()" name="formSaisie">
+      <p><label>Numero Etudiant</label> : <input type="number" name="numetu" min="0"></p>
+      <p>
+	<label>Date de debut (au format AAAA-MM-JJ)</label> : <input type="text" name="dateDebut">
+      </p>
+      <p><label>Heure de debut</label> : <input type="text" name="hDeb"></p>
+      <p><label>Date de fin (au format AAAA-MM-JJ)</label> : <input type="text" name="dateFin"></p>
+      <p><label>Heure de fin</label> : <input type="text" name="hFin"></p>
+      <p>
+	<input type="submit">
+	<input type="reset">
+      </p>
+      
+    </form>
+    
+  </body>
+</html>
+
